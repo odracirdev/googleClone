@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 60px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav {
+    display: flex;
+}
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-right-section a {
+    margin-right: 12px;
+    color: black;
+}
+
+/* Main */
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+main .main-logo {
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px #dfe1e5 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input .search-icon {
+    width: 24px;
+    height: 24px;
+}
+main .main-input .image-icon {
+    width: 24px;
+    height: 24px;
+}
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+main .main-buttons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+main .main-buttons button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);;
+    color: #202124;
+    background-color: #f8f9fa;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul {
+    margin: 16px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+footer .footer-left {
+    justify-content: flex-start;
+    gap: 24px;
+}
+footer .footer-right {
+    justify-content: flex-end;
+    gap: 24px;
+}
+footer ul li a {
+    color: #70757a;
+}
